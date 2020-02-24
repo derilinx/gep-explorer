@@ -1,4 +1,4 @@
-NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -e "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/src/node_modules/.bin"
+NODE_OPTS=-u $(shell id -u):$(shell id -g) -w "/usr/src" --rm -v "$(realpath .):/usr/src" -e "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/src/node_modules/.bin"
 
 NODE_IMAGE=yarn:10
 DOCKER=docker run $(NODE_OPTS) -ti $(NODE_IMAGE)
