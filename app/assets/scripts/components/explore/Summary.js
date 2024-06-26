@@ -353,6 +353,15 @@ class Summary extends Component {
                 ["BU", "Low", "High"][this.props.appliedState.leversState[0]] +
                 ["", "_CT_high"][this.props.appliedState.leversState[2]]
               ].toLocaleString(undefined, { maximumSignificantDigits: 2, maximumFractionDigits: 3 }) + "  USD/KWh" : ""}
+              <span className='elec-mix-model-link'
+                    style={{right: "5px", position:"absolute", display: "inline-block"}}
+              >
+                <a href="https://github.com/global-electrification-platform/TEMBA_model"
+                   title="TEMBA Model"
+                >
+                  (TEMBA Model)
+                </a>
+              </span>
             </div>
           </div>
         </article>
