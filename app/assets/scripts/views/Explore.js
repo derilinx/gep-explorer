@@ -337,7 +337,7 @@ class Explore extends Component {
           target='_blank'
           rel='noopener noreferrer'
         >
-          {round(rs.overall, 0)} / 100
+          {round(rs.electricityAccess, 0)} / 100
         </a>
       ) : riseScore;
       countryName = name;
