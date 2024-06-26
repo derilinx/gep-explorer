@@ -332,8 +332,8 @@ class Explore extends Component {
       const { name, riseScores: rs, models } = this.props.country.getData();
       riseScore = rs ? (
         <a
-          href='https://rise.worldbank.org/scores'
-          title='View World Bank rise score page'
+          href='https://rise.esmap.org/'
+          title="Regulatory Indicators for Sustainable Energy (RISE) compares national policy and regulatory frameworks for each of the four pillars of sustainable energy. The score presented here is for the country’s policy and regulatory support for access to electricity."
           target='_blank'
           rel='noopener noreferrer'
         >
