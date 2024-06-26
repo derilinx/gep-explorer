@@ -688,7 +688,9 @@ class Charts extends Component {
                 tickLabelProps={(value, index) => ({
                   fill: labelAndTicksColor,
                   fontSize: 8,
-                  dx: '-3em'
+                  dx: '0em',
+                  textAnchor: "end",
+
                 })}
                 tickComponent={({ formattedValue, ...tickProps }) => (
                   <text><tspan {...tickProps}>{format(Math.max(...valueTotals))}</tspan></text>
