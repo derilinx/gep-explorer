@@ -92,7 +92,7 @@ class Home extends Component {
 
               <ul className='home-intro__attribution'>
                 <li>
-                  <img src='/assets/graphics/content/logos/logo-esmap--white.png' />
+                  <img src='/assets/graphics/content/logos/logo-esmap--white.svg' />
                 </li>
                 <li>
                   <img src='/assets/graphics/content/logos/logo-wb--white.png' />
