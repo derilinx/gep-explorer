@@ -126,7 +126,7 @@ class About extends Component {
                   >
                     <img
                       alt='ESMAP Logo'
-                      src='/assets/graphics/content/logos/logo-esmap.png'
+                      src='/assets/graphics/content/logos/logo-esmap.svg'
                     />
                     <span>ESMAP</span>
                   </a>
