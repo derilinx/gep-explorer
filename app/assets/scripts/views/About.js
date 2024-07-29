@@ -16,23 +16,29 @@ class About extends Component {
           </header>
           <div className='inpage__body'>
             <div className='prose'>
-              <h2>The tool</h2>
+              <h2>The Global Electrification Platform</h2>
+              <h6>A Global Good for Achieving Universal Electrification</h6>
               <p>
-                The Global Electrification Platform (GEP) is an open access,
-                interactive, online platform that allows for overview of
-                electrification investment scenarios for a selection of
-                countries. The scenarios present pathways for achieving
-                universal electricity access, split into an intermediate
-                strategy for 2025 and full electrification by 2030.
+                The Global Electrification Platform (GEP) is an open
+                access, interactive, online platform that allows for
+                overview of electrification investment scenarios for a
+                selection of countries. The scenarios present pathways
+                for achieving universal electricity access (grid,
+                mini-grid and SHS), split into an intermediate
+                strategy for 2025 and full electrification by
+                2030. The results of the model indicate the least-cost
+                investment requirements based on publicly available
+                information on demand and existing infrastructure.
               </p>
 
               <p>
-                Users can explore 96 different scenarios to meet the access
-                goals. These different combinations and parameters are presented
-                in the form of "levers". Users can overlay additional layers as
-                well (e.g. wind potential, electricity networks, location of
-                health facilities) to help illustrate useful contextual
-                information about a selected country.
+                Users can explore 96 different scenarios to meet the
+                access goals. These different combinations and
+                parameters are presented in the form of
+                "levers". Users can overlay additional layers as well
+                (e.g. wind potential, electricity networks, location
+                of health facilities) to help illustrate useful
+                contextual information about a selected country.
               </p>
 
               <p>
@@ -53,11 +59,94 @@ class About extends Component {
                   opened
                 </a>{' '}
                 for feedback and improvements from other institutions, experts
-                and practitioners. Based on this process, the GEP will be
-                updated annually with improved data and processes, as well as
-                new models.
+                and practitioners. In addition to the web platform,
+                there are two additional aspects to the GEP model that
+                facilitate the creation, exploration, and
+                dissemination of novel modelling results:
+               <ul>
+                 <li>
+                   <b>The Generator</b> - enables users to explore the GEP,
+                   selecting their own parameters and assumptions, and
+                   allowing for combinations customized to a local country
+                   context. While the GEP web platform allows users to
+                   explore 6 different levers affecting electrification;
+                   the complete GEP model has over 150 parameters, and the
+                   Generator will allow users to explore all of these
+                   levers in any combination that is relevant for their
+                   context.
+                 </li>
+                 <li>
+                   <b>The Toolbox</b> - includes the tools used to generate the
+                   input data to the GEP model. These allow for greater
+                   customization and make it possible for users to
+                   incorporate and analyze their own GIS and non-GIS
+                   data. While fewer users are expected to engage at this
+                   level of the modelling, the combination of the Toolbox
+                   and the Generator will allow potential users to
+                   customize every aspect of the GEP.
+                 </li>
+               </ul>
               </p>
-
+              <p>
+                To date, three versions of the GEP have been developed:
+                <ul>
+                  <li>
+                    The first instance of the Global Electrification
+                    Platform, <b>GEP 1.0</b> was launched in November
+                    2019. Based on a version of the Open Source
+                    Spatial Electrification Tool (OnSSET), this
+                    version identified the least-cost technology to
+                    provide access to every household by 2030 in
+                    countries with less than 90% electrification rate
+                    in 2018, choosing between grid-connection,
+                    mini-grids and SHS. For each technology option,
+                    the costs associated with generation, transmission
+                    and distribution (where applicable) were used to
+                    calculate the Levelized Cost of Electricity,
+                    drawing in the local characteristics and distance
+                    to existing infrastructure of each settlement, and
+                    selecting the least-cost option in each
+                    location. A set of standardized scenarios, with
+                    different assumptions on demand and supply, were
+                    developed for each country, allowing the user to
+                    explore how technology mixes and investment
+                    requirements may change.
+                  </li>
+                  <li>
+                    <b>GEP 2.0</b> was launched in September
+                    2021. This version provided updated input data,
+                    updated the start of the modelling period from
+                    2018 to 2020 and provided refined methodologies
+                    for modelling mini-grid systems and demand
+                    estimations. Notably, GEP 2.0 also added demand
+                    estimates for social uses (based on locations of
+                    health and education facilities) as well as
+                    small-scale productive uses (based on settlements
+                    accessibility, GDP and population size).
+                  </li>
+                  <li>
+                    In addition to input data updates, <b>GEP 3.0 </b>
+                    provides methodological updates to account for the
+                    GHG emissions stemming from providing increased
+                    access to electricity. The emissions associated
+                    with new customers’ consumption of grid
+                    electricity as well as diesel consumption in
+                    mini-grids are accounted for. To do so, the
+                    GEP-OnSSET model is coupled with a version of The
+                    Electricity Model Base for Africa (TEMBA), a
+                    capacity expansion model that includes all
+                    mainland countries in sub-Saharan Africa, to
+                    provide the average cost and GHG emissions per kWh
+                    of grid electricity supplied in each country until
+                    2030 under three demand growth
+                    scenarios. Additionally, scenarios including a
+                    shadow price of carbon have been developed to
+                    explore how the technology mix, investment
+                    requirements and associated emissions are affected
+                    in the GEP-OnSSET and TEMBA models.
+                  </li>
+                </ul>
+              </p>
               <p>
                 For any inquiries and potential collaboration please contact the
                 development team:
@@ -70,9 +159,9 @@ class About extends Component {
                   </a>
                 </li>
                 <li>
-                  <b>KTH Energy Systems:</b> Andreas Sahlberg –{' '}
-                  <a href='mailto:asahl@kth.se'>
-                    asahl@kth.se
+                  <b>KTH Energy Systems:</b> Camilo Ramirez Gomez –{' '}
+                  <a href='mailto:camilorg@kth.se'>
+                    camilorg@kth.se
                   </a>
                 </li>
                 <li>
